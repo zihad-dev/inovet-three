@@ -1,0 +1,986 @@
+  /*comon css starts here*/
+  *{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ol,ul{
+    list-style-type: none;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+  /*comon css ends here*/
+
+
+  /*navber css starts here*/
+  .nav__modify{
+    padding-top: 30px;
+    position: absolute;
+    width: 100%;
+  }
+  .navber--content{
+    display: flex;
+    justify-content: space-between;
+  }
+  .navber__logo{
+    width: 110px;
+    height: 60px;
+    
+  }
+  .navber__manu{
+    display: flex;
+    align-items: center;
+  }
+  .navber__manu__wrapper{
+    display: flex;
+    gap: 48px;
+  }
+  .nav__manu__link{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #29313D;
+  }
+  .nav__manu__link__svg{
+    width: 18px;
+    height: 18px;
+    color: #29313D;
+    padding-left: 8px;
+  }
+  .navber__manu__button{
+    display: flex;
+    align-items: center;
+  }
+  .nav__manu__inner{
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    background-color: #FF5538;
+    padding: 14px 28px;
+    border-radius: 18px;
+    border: none;
+    transition: all linear.5s;
+    border: 2px solid #FF5538;
+  }
+  .nav__manu__inner:hover{
+    background: transparent;
+    color:#FF5538;
+  }
+  .nav__content__logo{
+    position: absolute;
+    z-index: 99;
+  }
+  /*navber css ends here*/
+  
+  /*bnner css starts here*/
+  .bnner__modify{
+    background: url(../imege/bnnerbg.png);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 293px;
+    padding-bottom: 297px;
+  }
+  .bnner--content{
+    text-align: center;
+  }
+  .bnner__content__head{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 130%;
+    color: #29313D;
+    padding-bottom: 24px;
+    padding: 0 235px;
+    text-transform: capitalize;
+  }
+  .bnner__content__pera{
+    
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #29313D;
+    line-height: 200%;
+    padding: 0 385px;
+    padding-bottom: 44px;
+  }
+  .bnner__content__button{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+  }
+  .bnner__content__button__wrapper{
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    background-color: #FF5538;
+    padding: 14px 28px;
+    border-radius: 18px;
+    border: none;
+    transition: all linear.5s;
+    
+    border: 2px solid #FF5538;
+  }
+  .bnner__content__button__wrapper:hover{
+    background: transparent;
+    color:#FF5538;
+  }
+  .bnner__shep__one {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #FFABBA;
+    border-radius: 50%;
+    position: absolute;
+    top: 125px;
+    left: 600px;
+    animation: shepOne 5s infinite linear;
+}
+@keyframes shepOne{
+  0%{
+   transform: rotate(0deg);
+  }
+  100%{
+   transform: rotate(360deg);
+  }
+}
+
+
+.bnner__shep__one__wrapper{
+  width: 25px;
+  height: 25px;
+  background-color: #FFABBA;
+  border-radius: 50%;
+  position: relative;
+  top: 10px;
+  left: 0;
+}
+/*.bnner__bg__top{
+  padding-top: 0;
+}
+.bnner__bg__top__left {
+  position: relative;
+  top: -497px;
+  left: -248px;
+  animation: animationTopBg 5s infinite linear;
+}
+@keyframes animationTopBg{
+  0%{
+    top: -497px;
+    left: -248px;
+  }
+  100% {
+    top: -375px;
+    left: -230px;
+}
+}*/
+.bnner__shep__three__svg {
+  position: absolute;
+  top: 129px;
+  left: 295px;
+  color: #FFABBA;
+  font-size: 30px;
+  animation: animationThree 5s infinite linear;
+}
+@keyframes animationThree{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.bnner__shep__four__svg {
+  position: absolute;
+  top: 512px;
+  left: 32px;
+  color: #FFABBA;
+  font-size: 30px;
+  animation: animationfour 5s infinite linear;
+}
+@keyframes animationfour{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.bnner__shep__five__svg {
+  position: absolute;
+  top: 335px;
+  left: 1230px;
+  color: #C087EE;
+  font-size: 30px;
+  animation: animationfive 5s infinite linear;
+}
+@keyframes animationfive{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+
+.bnner__shep__six__svg {
+  position: absolute;
+  top: 575px;
+  left: 1000px;
+  color: #FFABBA;
+  font-size: 30px;
+  animation: animationsix 5s infinite linear;
+}
+@keyframes animationsix{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.bnner__shep__seven{
+  width: 238px; 
+  height: 238px;
+  border: 2px solid #FFDCD8;
+  border-radius: 50%;
+  position: absolute;
+  top: 525px;
+  left: 145px;
+  animation: seven 5s infinite linear;
+}
+@keyframes seven{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.bnner__shep__txt{
+  position: absolute;
+  z-index: 99;
+  top: 166px;
+  left: 50px;
+}
+.bnner__shep__eight{
+  width: 18px;
+  height: 18px;
+  background-color: #C087EE;
+  border-radius: 50%;
+  position: absolute;
+  left: 1000px;
+  top: 200px;
+  animation: eight 2S infinite linear;
+}
+@keyframes eight{
+  0%{
+    width: 18px;
+    height: 18px;
+  }
+  50%{
+    width: 22px;
+    height: 22px;
+  }
+  100%{
+    width: 25px;
+    height: 25px;
+  }
+}
+
+  /*bnner css ends here*/
+  
+  /*grow css starts here*/
+  .grow--modify{
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    transform: translatey(-50%);
+  }
+  .grow--card{
+    width: 450px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    box-shadow: 12px -10px 19px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 12px -10px 19px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px -10px 19px 0px rgba(0,0,0,0.75);
+    background-color: #ffffff;
+    box-sizing: border-box;
+  }
+  .grow__card__header{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  color: #29313D;
+  line-height: 160%;
+  padding-top: 35px;
+  padding-bottom: 16px;
+  }
+  .grow__card__pera{
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #29313D;
+    width: 375px;
+    text-transform: capitalize;
+  }
+  /*grow css ends here*/
+  
+  /*life css starts here*/
+  .life-modify{
+    padding-top: 82px;
+    padding-bottom: 52px;
+  }
+  .life__header__exp{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FF5538;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+  }
+  .life__header__tittle{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #29313D;
+    text-transform: capitalize;
+    width: 450px;
+  }
+  .life--content{
+    display: flex;
+    position: relative;
+    justify-content: end;
+  }
+  .life__content__image{
+    margin-top: 60px;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+  .life--content--right{
+    width: 850px;
+    height: 550px;
+    background-color: rgba(251, 243, 240, 0.80);
+    position: absolute;
+    z-index: 90;
+  }
+  .life--content--right--wrapper{
+    padding: 100px 0 100px 183px;
+  }
+  .life__content__right__text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 140%;
+    width: 570px;
+    color: #29313D;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+  }
+  .life__content__right__pera{
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #29313D;
+    width: 500px;
+    text-transform: capitalize;
+    padding-bottom: 48px;
+
+  }
+  .life__content__right__button{
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 14px 28px;
+    border: 2px solid#FF5538;
+    border-radius: 18px;
+    background-color: #FF5538;
+  }
+  .life__bg__right__long {
+    position: absolute;
+    right: -100px;
+    bottom: -700px;
+    z-index: 99;
+    overflow: hidden;
+    animation: animationRightLong 5s infinite linear;
+}
+@keyframes animationRightLong{
+  0%{
+    right: -100px;
+    bottom: -700px;
+  }
+  50%{
+    right: -50px;
+    bottom: -600px;
+  }
+ 
+}
+.life__content__sheap {
+  width: 122px;
+  height: 122px;
+  border: 2px solid #FFABBA;
+  border-radius: 50%;
+  position: absolute;
+  top: -35px;
+  left: 425px;
+  animation: animationLifeSeap 5s infinite linear;
+}
+@keyframes animationLifeSeap{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.life__content__sheap__wrapper {
+  width: 25px;
+  height: 25px;
+  background-color: #FFABBA;
+  border-radius: 50%;
+  position: relative;
+  top: 15px;
+  right: -100px;
+}
+
+  /*life css ends here*/
+  
+  /*counting css starts here*/
+  .counting--modify{
+    padding-top: 590px;
+    padding-bottom: 115px;
+  }
+  .counting--head{
+    display: flex;
+    justify-content: space-between;
+  }
+  .counting--button{
+    display: flex;
+    align-items: center;
+  }
+  .counting__head__text__exp{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FF5538;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+  }
+  .counting__head__text__header{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #29313D;
+    text-transform: capitalize;
+    width: 694px;
+  }
+  .counting__button__link{
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FF5538;
+    text-transform: capitalize;
+    padding: 14px 28px;
+    border: 2px solid#FF5538;
+    border-radius: 18px;
+    transition: all linear.3s;
+  }
+  
+  .counting__button__link:hover{
+    background-color: #FF5538;
+    color: #fff;
+  }
+.counting--content{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  flex-wrap: wrap;
+  row-gap: 0;
+}
+
+
+
+  .counting__content__mobileAppSm{
+    width: 570px;
+    height: 330px;
+  }
+
+  .counting__content__mobileAppBig{
+    width: 810px;
+    height: 330px;
+  }
+  .couning__content__textSm{
+    padding: 30px 0 30px 30px;
+    background-color: #ffffff;
+    box-shadow: 5px 3px 17px -8px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 5px 3px 17px -8px rgba(0,0,0,0.75);
+   -moz-box-shadow: 5px 3px 17px -8px rgba(0,0,0,0.75);  
+    box-sizing: border-box;
+    opacity: 0;
+    transition: all linear.3s;
+  }
+  .couning__content__text__mobileSm{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    color: #29313D;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+  }
+  .couning__content__text__readSm{
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FF5538;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  .counting--content--imageSm:hover .couning__content__textSm{
+    width: 100%;
+    transform: translateY(-100%);
+    opacity: 1;
+  }
+
+
+
+  
+  .couning__content__textBig{
+    padding: 30px 0 30px 30px;
+    background-color: #ffffff;
+    box-shadow: 5px 3px 17px -8px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 5px 3px 17px -8px rgba(0,0,0,0.75);
+   -moz-box-shadow: 5px 3px 17px -8px rgba(0,0,0,0.75);  
+    box-sizing: border-box;
+    opacity: 0;
+    transition: all linear.3s;
+  }
+  .couning__content__text__mobileBig{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    color: #29313D;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+  }
+  .couning__content__text__readBig{
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FF5538;
+    text-transform: capitalize;
+  }
+  .counting--content--imageBig:hover .couning__content__textBig{
+    width: 100%;
+    transform: translateY(-100%);
+    opacity: 1;
+  }
+  /*counting css ends here*/
+  
+  /*service css starts here*/
+  .service--modify{
+    padding: 120px 0px;
+    background-color: #FDF9F8;
+    position: relative;
+  }
+  .service--content{
+    display: flex;
+    gap: 100px;
+    
+  }
+  .service--part--left{
+    width: 50%;
+    z-index: 99;
+  }
+  .service--part--leftOne{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .service--part--leftTwo{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 30px;
+  }
+  
+  
+.service--box{
+  width: 260px;
+  height: 230px;
+  background-color: #ffffff;
+}
+  .service--box--content{
+    text-align: center;
+    padding: 74px 60px;
+  }
+  .service__box__number{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #29313D;
+    text-transform: capitalize;
+    line-height: 140%;
+    padding-bottom: 10px;
+  }
+
+  .service__box__text{
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #29313D;
+    text-transform: capitalize;
+  }
+  .service__part__right__head{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #29313D;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    padding-right: 90px;
+
+  }
+  .service__part__right__pera{
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #29313D;
+    text-transform: capitalize;
+    line-height: 200%;
+    padding-right: 180px;
+    padding-bottom: 40px;
+  }
+  .service__part__right__button{
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FF5538;
+    text-transform: capitalize;
+    padding: 14px 28px;
+    border: 2px solid#FF5538;
+    border-radius: 18px;
+    transition: all linear.3s;
+
+  }
+  .service__part__right__button:hover{
+    color: #FDF9F8;
+    background-color: #FF5538;
+
+  }
+  .service--sheapOne{
+    width: 239px;
+    height: 239px;
+    border: 2px solid #FFDCD8;
+    position: absolute;
+    border-radius: 50%;
+    top: 230px;
+    left: 45px;
+    animation: animationServiceOne 5s infinite linear;
+  }
+  @keyframes animationServiceOne{
+    0%{
+      transform: rotate(0deg);
+    }
+    50%{
+      transform: rotate(180deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+  
+  .service--sheapOne--wrapper{
+    width: 25px;
+    height: 25px;
+    background-color:#FFDCD8 ;
+    border-radius: 50%;
+    position: relative;
+    top: 112px;
+    left: 65px;
+  }
+  .service--sheapTwo{
+    width: 13px;
+    height: 13px;
+    background-color: #FFDCD8;
+    border-radius: 50%;
+    position: absolute;
+    top: 45px;
+    left: 240px;
+    animation: animationServiceTwo 5s infinite linear;
+  }
+@keyframes animationServiceTwo{
+  0%{
+    width: 13px;
+    height: 13px;
+
+  }
+  25%{
+    width: 15px;
+    height: 15px;
+  }
+  50%{
+    width: 18px;
+    height: 18px;
+  }
+  75%{
+    width: 20px;
+    height: 20px;
+  }
+  100%{
+    width: 22px;
+    height: 22px;
+  }
+}
+.service__bg__img{
+  position: absolute;
+  top: 35px;
+  bottom: 35px;
+  right: -305px;
+  overflow: hidden;
+}
+
+  /*service css ends here*/
+  
+  /*golbal css starts here*/
+  .golbal--modify{
+    padding: 120px 0px;
+  }
+  .golbal__content__header__text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #29313D;
+    text-transform: capitalize;
+    padding-bottom: 60px;
+    width: 850px;
+    margin: 0 auto;
+    line-height: 140%;
+    text-align: center;
+  }
+  .golbal--content--logo{
+    display: flex;
+    justify-content: space-between;
+  }
+  /*golbal css ends here*/
+  
+  /*say css starts here*/
+  .say--modify{
+    background-color: #FDF9F8;
+  }
+  .say--part--left{
+    padding-top: 140px;
+    padding-bottom: 140px;
+    width: 50%;
+  }
+  
+  .say__left__part__image{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    margin-right: 25px;
+    margin-bottom: 40px;
+  }
+  .say__part__left__head{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #29313D;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+  }
+  .say__part__left__pera{
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #29313D;
+    text-transform: capitalize;
+    line-height: 180%;
+    padding-bottom: 40px;
+  }
+  .say__part__left__content__buttom{
+    display: flex;
+    gap: 30px;
+  }
+  .say__part__left__button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #29313D;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  .say__part__left__button__svg{
+    padding: 20px;
+    color: #29313D;
+    background-color: #FFABBA;
+    border-radius: 10px;
+    text-align: center;
+    transition: all linear.3s;
+    width: 24px;
+    height: 24px;
+  }
+  .say--content{
+    display: flex;
+    gap: 150px;
+  }
+  
+  .say__part__left__button__svg:hover{
+    background-color: #FF5538;
+    color:#ffffff;
+  }
+  .say--part--right{
+    width: 50%;
+    padding: 120px 0px;
+  }
+  .say__part__right__image{
+    width: 500px;
+    height: 557px;
+    border-radius: 30px;
+  }
+  /*say css ends here*/
+  
+  /*got css starts here*/
+  .got--modify{
+    padding: 100px 0px;
+    background-color: #FFD7C8;
+  }
+  .got--content--top{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid#29313D;
+  }
+  .got__content__top__head{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #29313D;
+    text-transform: capitalize;
+    padding-bottom: 7px;
+    line-height: 140%;
+  }
+  .got__content__top__header{
+    padding-bottom: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #29313D;
+    text-transform: capitalize;
+    line-height: 140%;
+  }
+  .got__content__top__button{
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FF5538;
+    text-transform: capitalize;
+    padding: 14px 28px;
+    border: 2px solid#FF5538;
+    border-radius: 18px;
+    transition: all linear.3s;
+  }
+  .got__content__top__button:hover{
+    color: #FDF9F8;
+    background-color: #FF5538;
+  }
+  .got__content__bottom{
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #29313D;
+    text-transform: capitalize;
+    padding-top: 24px;
+    padding-right: 50px;
+  }
+  /*got css ends here*/
+  
+  /*footer css starts here*/
+  .footer--modify{
+    padding-top: 140px;
+    padding-bottom: 55px;
+  }
+  .footer--content--top{
+    display: flex;
+    gap: 70px;
+    padding-bottom: 80px;
+  }
+  .footer--content--top--left{
+    width: 40%;
+  }
+  .footer__part__top__left__img{
+    padding-bottom: 40px;
+  }
+  .footer__part__top__left__text{
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #29313D;
+    line-height: 180%;
+    text-transform: capitalize;
+    padding-right: 85px;
+  }
+  .footer--content--top--right{
+    display: flex;
+    gap: 160px;
+  }
+  .footer__content__top__right__text .footer__text__list:nth-child(1){
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #29313D;
+    line-height: 140%;
+    padding-bottom: 48px;
+    transition: all linear .3s;
+  }
+  
+  .footer__content__top__right__text .footer__text__list:nth-child(1):hover{
+    color: #FF5538;
+  }
+  .footer__content__top__right__text .footer__text__list{
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #29313D;
+    padding-bottom: 30px;
+  }
+  .footer--content--buttom{
+    width: 100%;
+  }
+  .footer--content---buttom---left{
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__content__buttom__pera{
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #29313D;
+
+  }
+  .footer__buttom__right{
+    display: flex;
+    gap: 60px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #29313D;
+  }
+  /*footer css ends here*/
+  
